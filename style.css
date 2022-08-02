@@ -1,0 +1,232 @@
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('OpenSans-Bold-webfont.eot');
+    src: url('OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('OpenSans-Bold-webfont.woff2') format('woff2'),
+         url('OpenSans-Bold-webfont.woff') format('woff'),
+         url('OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:cadetblue;
+    
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content:space-evenly;
+}
+.noir{
+    color:#ffffff;
+    font-weight: bold;
+}
+.border{
+    
+    background-color:dodgerblue;
+    color:dodgerblue;
+    padding: 2%;
+    margin: 0.9%;
+    /*border: 1px solid;*/
+    border-radius: 100px;
+    font-size: 1.7em;
+    
+}
+.borderfooter{
+    color: #ffffff;
+    font-weight: bold;
+    justify-content: center;
+}
+a{
+    color: rgb(253, 254, 255);
+}
+.fk{
+    width: 90%;
+
+}
+main{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content:space-around;
+    background-color:#102436;
+    /*background-image: url('img2.jpg');*/
+    /*background-position: center;*/
+    background-size:cover;
+    margin: 0;
+    padding-top: 8em;
+    padding-bottom: 8em;
+    height:max-content;
+    align-items:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    align-content:stretch;
+}
+header{
+    background-color: #102436;
+   /* height: 150px;
+    width: 100%;*/
+    flex-basis: 100%;
+    position:relative;
+    padding-top: 4em;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #bbbdbf;
+    width: 100%;
+    font-size: x-large;
+    justify-content:center;
+    flex-flow: wrap row;
+
+}
+.franck{
+    
+    font-size: 2.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    
+
+    
+}
+h2{
+    color:rgb(255, 255, 255);
+    font-size: 2em;;
+   /* background-color: rgb(61, 131, 201);*/
+    font-size: 2em;
+    width:fit-content;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-right: 20%;
+    padding-top: 12px;
+    padding: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    justify-content:flex-start;
+    align-items: center;
+    
+}
+.left{
+    justify-content:center;
+    align-items: center;
+    color:#bbbdbf;
+}
+
+
+.php{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+}
+.me{
+    background-color: #102436;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ma_photo{
+
+    width: 150px;
+    height: 130px;
+    border: 20px solid #102436;
+
+    border-radius: 45%;
+    /*position: fixed;*/
+    flex-basis: 0.5%;
+    /*top:12%;*/
+    margin: 1em;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 3em;
+    justify-content: center;
+}
+.border:hover{
+    background-color: rgb(80, 121, 255);
+}
+
+p{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+    color:honeydew;
+    font-size: 1.6em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.image{
+    color: blue;
+}
+
+footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    background-color:dodgerblue;
+   font-size: 2em;
+    height: 250px;
+    /*flex-basis: 100%;*/
+    position:relative;
+    align-items:center;
+    bottom: 0;
+}
+.mes_contacts{
+    
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    list-style: none;
+    color: #bbbdbf;
+    justify-content: center;
+    
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nom_en_gras{
+    font-weight: bold;
+}
+.foot{
+    color: #ffffff;
+}
+
+
+/*@media (max-width: 700px) {
+    
+}*/
